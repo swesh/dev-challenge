@@ -16,7 +16,7 @@ require('./site/style.css');
 // Change this to get detailed logging from the stomp library
 global.DEBUG = false;
 
-var App = require("./site/App");
+const App = require("./site/App");
 (function(){
   App.init().getLiveFeeds();
 })();
